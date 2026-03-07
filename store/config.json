@@ -1,5 +1,10 @@
-{
-  "store_open": false,
-  "coming_soon_image": "https://takah.fahads.sa/store/coming-soon.png",
-  "title": "المتجر"
-}
+[
+  {
+    "id": "1",
+    "title": "ورق بلوت فاخر",
+    "subtitle": "ورق لعب احترافي",
+    "price": "25 SAR",
+    "image": "https://takah.fahads.sa/store/cards.png",
+    "url": "https://amazon.sa/product1"
+  }
+]
