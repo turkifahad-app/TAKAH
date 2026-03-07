@@ -1,6 +1,7 @@
 [
   {
     "company": "شركة الطاولات الذهبية",
+    "url": "https://example.com/golden-tables",
     "products": [
       {
         "id": "1",
@@ -70,6 +71,7 @@
   },
   {
     "company": "متجر الورق الفاخر",
+    "url": "https://example.com/premium-cards",
     "products": [
       {
         "id": "9",
@@ -115,6 +117,7 @@
   },
   {
     "company": "شركة اكسسوارات البلوت",
+    "url": "https://example.com/baloot-accessories",
     "products": [
       {
         "id": "14",
