@@ -1,0 +1,10 @@
+[
+  {
+    "id": "1",
+    "title": "منتج تجريبي",
+    "subtitle": "اختبار المتجر",
+    "price": "25 SAR",
+    "image": "https://picsum.photos/400",
+    "url": "https://google.com"
+  }
+]
