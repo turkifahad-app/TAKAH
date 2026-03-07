@@ -1,82 +1,153 @@
 [
   {
-    "id": "1",
-    "title": "ورق بلوت فاخر",
-    "subtitle": "ورق لعب احترافي",
-    "price": "25 SAR",
-    "image": "https://picsum.photos/400?1",
-    "url": "https://google.com"
+    "company": "شركة الطاولات الذهبية",
+    "products": [
+      {
+        "id": "1",
+        "title": "طاولة بلوت فاخرة",
+        "subtitle": "خشب فاخر",
+        "price": "320 SAR",
+        "image": "https://picsum.photos/400?1",
+        "url": "https://amazon.sa/product1"
+      },
+      {
+        "id": "2",
+        "title": "طاولة بلوت متوسطة",
+        "subtitle": "تصميم حديث",
+        "price": "260 SAR",
+        "image": "https://picsum.photos/400?2",
+        "url": "https://amazon.sa/product2"
+      },
+      {
+        "id": "3",
+        "title": "طاولة بلوت قابلة للطي",
+        "subtitle": "سهلة التخزين",
+        "price": "210 SAR",
+        "image": "https://picsum.photos/400?3",
+        "url": "https://amazon.sa/product3"
+      },
+      {
+        "id": "4",
+        "title": "طاولة بلوت احترافية",
+        "subtitle": "مخصصة للبطولات",
+        "price": "380 SAR",
+        "image": "https://picsum.photos/400?4",
+        "url": "https://amazon.sa/product4"
+      },
+      {
+        "id": "5",
+        "title": "طاولة بلوت خشبية",
+        "subtitle": "تصميم كلاسيكي",
+        "price": "290 SAR",
+        "image": "https://picsum.photos/400?5",
+        "url": "https://amazon.sa/product5"
+      },
+      {
+        "id": "6",
+        "title": "طاولة بلوت صغيرة",
+        "subtitle": "مناسبة للمجالس",
+        "price": "190 SAR",
+        "image": "https://picsum.photos/400?6",
+        "url": "https://amazon.sa/product6"
+      },
+      {
+        "id": "7",
+        "title": "طاولة بلوت فاخرة جدًا",
+        "subtitle": "تصميم فاخر",
+        "price": "420 SAR",
+        "image": "https://picsum.photos/400?7",
+        "url": "https://amazon.sa/product7"
+      },
+      {
+        "id": "8",
+        "title": "طاولة بلوت حديثة",
+        "subtitle": "تصميم عصري",
+        "price": "300 SAR",
+        "image": "https://picsum.photos/400?8",
+        "url": "https://amazon.sa/product8"
+      }
+    ]
   },
   {
-    "id": "2",
-    "title": "طاولة بلوت",
-    "subtitle": "طاولة لعب فاخرة",
-    "price": "199 SAR",
-    "image": "https://picsum.photos/400?2",
-    "url": "https://google.com"
+    "company": "متجر الورق الفاخر",
+    "products": [
+      {
+        "id": "9",
+        "title": "ورق بلوت فاخر",
+        "subtitle": "جودة عالية",
+        "price": "25 SAR",
+        "image": "https://picsum.photos/400?9",
+        "url": "https://amazon.sa/product9"
+      },
+      {
+        "id": "10",
+        "title": "ورق بلوت كلاسيكي",
+        "subtitle": "نسخة اقتصادية",
+        "price": "15 SAR",
+        "image": "https://picsum.photos/400?10",
+        "url": "https://amazon.sa/product10"
+      },
+      {
+        "id": "11",
+        "title": "ورق بلوت احترافي",
+        "subtitle": "مناسب للبطولات",
+        "price": "35 SAR",
+        "image": "https://picsum.photos/400?11",
+        "url": "https://amazon.sa/product11"
+      },
+      {
+        "id": "12",
+        "title": "ورق بلوت فاخر أسود",
+        "subtitle": "تصميم مميز",
+        "price": "30 SAR",
+        "image": "https://picsum.photos/400?12",
+        "url": "https://amazon.sa/product12"
+      },
+      {
+        "id": "13",
+        "title": "ورق بلوت ذهبي",
+        "subtitle": "نسخة خاصة",
+        "price": "40 SAR",
+        "image": "https://picsum.photos/400?13",
+        "url": "https://amazon.sa/product13"
+      }
+    ]
   },
   {
-    "id": "3",
-    "title": "حافظة ورق",
-    "subtitle": "حافظة أنيقة للورق",
-    "price": "45 SAR",
-    "image": "https://picsum.photos/400?3",
-    "url": "https://google.com"
-  },
-  {
-    "id": "4",
-    "title": "مفرش بلوت",
-    "subtitle": "مفرش لعب احترافي",
-    "price": "79 SAR",
-    "image": "https://picsum.photos/400?4",
-    "url": "https://google.com"
-  },
-  {
-    "id": "5",
-    "title": "كراسي لعب",
-    "subtitle": "كرسي مريح للعب",
-    "price": "350 SAR",
-    "image": "https://picsum.photos/400?5",
-    "url": "https://google.com"
-  },
-  {
-    "id": "6",
-    "title": "عداد نقاط بلوت",
-    "subtitle": "جهاز تسجيل النقاط",
-    "price": "60 SAR",
-    "image": "https://picsum.photos/400?6",
-    "url": "https://google.com"
-  },
-  {
-    "id": "7",
-    "title": "كوب قهوة بلوت",
-    "subtitle": "كوب خاص للاعبين",
-    "price": "20 SAR",
-    "image": "https://picsum.photos/400?7",
-    "url": "https://google.com"
-  },
-  {
-    "id": "8",
-    "title": "سجادة بلوت",
-    "subtitle": "سجادة طاولة لعب",
-    "price": "120 SAR",
-    "image": "https://picsum.photos/400?8",
-    "url": "https://google.com"
-  },
-  {
-    "id": "9",
-    "title": "صندوق ورق",
-    "subtitle": "علبة حفظ الورق",
-    "price": "35 SAR",
-    "image": "https://picsum.photos/400?9",
-    "url": "https://google.com"
-  },
-  {
-    "id": "10",
-    "title": "إضاءة طاولة",
-    "subtitle": "إضاءة مناسبة للعب",
-    "price": "95 SAR",
-    "image": "https://picsum.photos/400?10",
-    "url": "https://google.com"
+    "company": "شركة اكسسوارات البلوت",
+    "products": [
+      {
+        "id": "14",
+        "title": "مفرش بلوت احترافي",
+        "subtitle": "مفرش لعب فاخر",
+        "price": "120 SAR",
+        "image": "https://picsum.photos/400?14",
+        "url": "https://amazon.sa/product14"
+      },
+      {
+        "id": "15",
+        "title": "حافظة ورق بلوت",
+        "subtitle": "حماية للورق",
+        "price": "45 SAR",
+        "image": "https://picsum.photos/400?15",
+        "url": "https://amazon.sa/product15"
+      },
+      {
+        "id": "16",
+        "title": "عداد نقاط بلوت",
+        "subtitle": "لتسجيل النقاط",
+        "price": "60 SAR",
+        "image": "https://picsum.photos/400?16",
+        "url": "https://amazon.sa/product16"
+      },
+      {
+        "id": "17",
+        "title": "كوب بلوت",
+        "subtitle": "كوب قهوة خاص للاعبين",
+        "price": "20 SAR",
+        "image": "https://picsum.photos/400?17",
+        "url": "https://amazon.sa/product17"
+      }
+    ]
   }
 ]
