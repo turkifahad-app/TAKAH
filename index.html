@@ -1,14 +1,53 @@
 <!doctype html>
 <html lang="ar" dir="rtl">
 <head>
+
+  <!-- 🔥 Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z5FM8YQTW9"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-Z5FM8YQTW9');
+  </script>
+
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>TAKAH | طقة</title>
-  <meta name="description" content="TAKAH app pages with full Baloot guide integrated inside the website." />
+  <title>TAKAH | طقة - شرح البلوت الكامل وأفضل تطبيق لحساب البلوت</title>
+  <meta name="description" content="شرح البلوت الكامل مع حساب المشاريع والنقاط داخل موقع TAKAH | طقة، أفضل تطبيق لحساب البلوت بسهولة واحترافية." />
+  <meta name="keywords" content="بلوت, شرح البلوت, حساب البلوت, مشاريع البلوت, طقة, TAKAH" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://takah.site/" />
+
+  <meta property="og:locale" content="ar_SA" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="TAKAH | طقة - شرح البلوت الكامل وأفضل تطبيق لحساب البلوت" />
+  <meta property="og:description" content="شرح البلوت الكامل مع حساب المشاريع والنقاط داخل موقع TAKAH | طقة." />
+  <meta property="og:url" content="https://takah.site/" />
+  <meta property="og:site_name" content="TAKAH | طقة" />
+  <meta property="og:image" content="https://takah.site/logo_app.png" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="TAKAH | طقة - شرح البلوت الكامل" />
+  <meta name="twitter:description" content="أفضل شرح للبلوت + حساب الطقة داخل موقع واحد." />
+  <meta name="twitter:image" content="https://takah.site/logo_app.png" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "TAKAH | طقة",
+    "url": "https://takah.site/",
+    "description": "شرح البلوت الكامل وحساب المشاريع والنقاط مع TAKAH | طقة",
+    "inLanguage": "ar"
+  }
+  </script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&family=Marhey:wght@500;700&display=swap" rel="stylesheet">
 
+  <!-- 🔥 باقي الكود (نفس كودك بدون تغيير) -->
   <style>
     :root {
       --bg: #E4D5B7;
@@ -1368,8 +1407,8 @@
               من التوزيع والشراء إلى المشاريع وحساب النقاط. هنا بتلقى شرح واضح، مرتب، وسهل القراءة داخل نفس الموقع بدون ما يفتح صفحة ثانية.
             </p>
             <div class="hero-btns">
-              <a href="#distribution" class="btn btn-gold" data-analytics="guide_start">ابدأ من التوزيع</a>
-              <a href="#projects" class="btn btn-projects" data-analytics="guide_projects">روح للمشاريع</a>
+              <a href="#distribution" class="btn btn-gold" data-analytics="guide_start" onclick="gtag('event', 'guide_start', { event_category: 'engagement', event_label: 'hero_distribution' });">ابدأ من التوزيع</a>
+              <a href="#projects" class="btn btn-projects" data-analytics="guide_projects" onclick="gtag('event', 'guide_projects', { event_category: 'engagement', event_label: 'hero_projects' });">روح للمشاريع</a>
             </div>
           </section>
 
@@ -1811,8 +1850,8 @@
                     بعد ما فهمت القواعد، يجي دور السرعة. استخدم التطبيق لحساب النقاط وتتبع اللعب بشكل أوضح وأسهل.
                   </p>
                   <div class="cta-buttons">
-                    <a href="https://apps.apple.com/sa/app/%D8%B7%D9%82%D8%A9-takah/id6759226764?l=ar" class="btn btn-gold" target="_blank" rel="noopener noreferrer" data-analytics="app_store_click">طقة | TAKAH</a>
-                    <a href="#scoring" class="btn btn-projects" data-analytics="review_scoring">مراجعة الحساب</a>
+                    <a href="https://apps.apple.com/sa/app/%D8%B7%D9%82%D8%A9-takah/id6759226764?l=ar" class="btn btn-gold" target="_blank" rel="noopener noreferrer" data-analytics="app_store_click" onclick="gtag('event', 'app_store_click', { event_category: 'engagement', event_label: 'cta_app_store' });">طقة | TAKAH</a>
+                    <a href="#scoring" class="btn btn-projects" data-analytics="review_scoring" onclick="gtag('event', 'review_scoring', { event_category: 'engagement', event_label: 'cta_review_scoring' });">مراجعة الحساب</a>
                   </div>
                 </div>
               </div>
@@ -2016,6 +2055,12 @@ function setLang(lang) {
   cl(el.policyEN, "hidden", ar);
 
   document.title = ar ? "TAKAH | طقة - شرح البلوت الكامل وأفضل تطبيق لحساب البلوت" : "TAKAH | Full Baloot Guide and Best Baloot Score App";
+  const metaDesc = document.querySelector('meta[name="description"]');
+  if (metaDesc) {
+    metaDesc.setAttribute('content', ar
+      ? 'شرح البلوت الكامل مع حساب المشاريع والنقاط داخل موقع TAKAH | طقة، أفضل تطبيق لحساب البلوت بسهولة واحترافية.'
+      : 'Full Baloot guide with projects and score calculation on TAKAH, the best Baloot score app.');
+  }
   t(el.pageTitle, s.title);
   t(el.lastUpdated, s.lastUpdated);
   t(el.storeTitle, s.storeTitle);
@@ -2114,6 +2159,21 @@ function initSplash() {
   }, 2400);
 }
 
+function initAnalyticsTracking() {
+  document.querySelectorAll('[data-analytics]').forEach(node => {
+    if (node.hasAttribute('onclick')) return;
+    node.addEventListener('click', () => {
+      const eventName = node.getAttribute('data-analytics');
+      if (typeof gtag === 'function' && eventName) {
+        gtag('event', eventName, {
+          event_category: 'engagement',
+          event_label: node.textContent.trim()
+        });
+      }
+    });
+  });
+}
+
 function initGuideNav() {
   const links = document.querySelectorAll('.guide-nav .nav-links a');
   const sections = document.querySelectorAll('#pageGuide [id]');
@@ -2135,22 +2195,6 @@ function initGuideNav() {
   activate();
 }
 
-function trackEvent(name, params = {}) {
-  if (typeof window.gtag !== "function") return;
-  window.gtag("event", name, params);
-}
-
-function initAnalytics() {
-  document.querySelectorAll('[data-analytics]').forEach(node => {
-    node.addEventListener('click', () => {
-      trackEvent(node.getAttribute('data-analytics'), {
-        event_category: 'engagement',
-        event_label: node.textContent.trim()
-      });
-    });
-  });
-}
-
 (function () {
   bindData();
   initDark();
@@ -2168,9 +2212,9 @@ function initAnalytics() {
 
   setTab("policy");
   initSplash();
+  initAnalyticsTracking();
   initLightbox();
   initGuideNav();
-  initAnalytics();
 })();
 </script>
 </body>
