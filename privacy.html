@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>سياسة الخصوصية — TAKAH | طقة</title>
+  <meta name="description" content="سياسة خصوصية تطبيق طقة TAKAH لحساب نقاط البلوت. اعرف ما نجمعه وكيف نحمي بياناتك." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://takah.site/privacy.html" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #E4D5B7;
+      --card: #FFFFFF;
+      --text: #2F2F2F;
+      --muted: #6B4A2B;
+      --primary: #6B4A2B;
+      --accent: #FFB900;
+      --border: rgba(107,74,43,0.18);
+      --shadow: 0 8px 16px rgba(47,47,47,0.08);
+    }
+    :root.dark {
+      --bg: #1a1510;
+      --card: #2a2018;
+      --text: #F0EAE0;
+      --muted: #C0A882;
+      --primary: #C9965A;
+      --border: rgba(201,150,90,0.18);
+      --shadow: 0 8px 16px rgba(0,0,0,0.35);
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Tajawal', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.85;
+      min-height: 100dvh;
+      padding: 24px 16px 48px;
+      transition: background 0.3s, color 0.3s;
+    }
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      background: var(--card);
+      border-radius: 24px;
+      padding: 32px 28px;
+      box-shadow: var(--shadow);
+      border: 1px solid var(--border);
+    }
+    .top-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 28px;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      text-decoration: none;
+      color: var(--primary);
+      font-weight: 800;
+      font-size: 14px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(107,74,43,0.08);
+      border: 1px solid var(--border);
+      transition: background 0.2s;
+    }
+    .back-link:hover { background: rgba(107,74,43,0.14); }
+    .lang-btns {
+      display: flex;
+      gap: 8px;
+    }
+    .lang-btn {
+      padding: 7px 14px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: transparent;
+      color: var(--muted);
+      font-weight: 800;
+      font-size: 13px;
+      cursor: pointer;
+      transition: background 0.2s, color 0.2s;
+    }
+    .lang-btn.active {
+      background: var(--primary);
+      color: #fff;
+      border-color: var(--primary);
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: var(--primary);
+      margin-bottom: 6px;
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 0.88rem;
+      margin-bottom: 28px;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    h2 {
+      font-size: 1.05rem;
+      font-weight: 800;
+      color: var(--primary);
+      margin: 20px 0 8px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    h2::before {
+      content: '';
+      width: 4px;
+      height: 18px;
+      border-radius: 2px;
+      background: var(--primary);
+      flex-shrink: 0;
+    }
+    p {
+      margin-bottom: 10px;
+      opacity: 0.92;
+    }
+    a { color: var(--primary); font-weight: 600; }
+    .hidden { display: none !important; }
+    .dark-btn {
+      width: 38px; height: 38px;
+      border-radius: 50%;
+      background: rgba(107,74,43,0.10);
+      border: 1px solid var(--border);
+      cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      color: var(--primary);
+      font-size: 18px;
+      transition: background 0.2s;
+    }
+    .dark-btn:hover { background: rgba(107,74,43,0.18); }
+    footer {
+      text-align: center;
+      margin-top: 28px;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="top-bar">
+    <a href="index.html" class="back-link">← الرئيسية / Home</a>
+    <div style="display:flex;gap:8px;align-items:center;">
+      <div class="lang-btns">
+        <button class="lang-btn" id="btnAR" onclick="setLang('ar')">ع</button>
+        <button class="lang-btn active" id="btnEN" onclick="setLang('en')">E</button>
+      </div>
+      <button class="dark-btn" id="darkBtn" title="Dark mode">🌙</button>
+    </div>
+  </div>
+
+  <!-- Arabic -->
+  <div id="contentAR" class="hidden">
+    <h1>سياسة الخصوصية</h1>
+    <p class="meta">آخر تحديث: 2026-02-11 · تطبيق طقة | TAKAH</p>
+    <hr>
+
+    <h2>نظرة عامة</h2>
+    <p>تطبيق <strong>طقة (TAKAH)</strong> هو تطبيق لحساب نقاط لعبة البلوت. لا يتطلب إنشاء حساب، ولا يجمع بيانات شخصية مثل الاسم أو رقم الهاتف أو البريد الإلكتروني.</p>
+
+    <h2>المعلومات التي نجمعها</h2>
+    <p>نحن لا نجمع ولا نخزن بيانات شخصية بشكل مباشر. في حال احتوى التطبيق على خدمات إعلانية من طرف ثالث (مثل Google AdMob)، قد تقوم هذه الخدمات بجمع بيانات غير شخصية تلقائياً كنوع الجهاز ونظام التشغيل ومعرّفات الإعلانات لأغراض عرض الإعلانات وقياس الأداء.</p>
+
+    <h2>الإعلانات (Google AdMob)</h2>
+    <p>قد يعرض التطبيق إعلانات بانر عبر <strong>Google AdMob</strong>. قد تجمع Google بيانات غير شخصية لعرض الإعلانات وقياسها وفق سياساتها الخاصة. يمكنك إيقاف الإعلانات المخصصة من إعدادات جهازك إن كان ذلك متاحاً.</p>
+
+    <h2>مشاركة البيانات</h2>
+    <p>نحن لا نبيع أي بيانات شخصية. قد تُشارك بيانات غير شخصية مع مزودي الإعلانات فقط بالقدر اللازم لتشغيل الإعلانات وتحسين أدائها.</p>
+
+    <h2>أمان البيانات</h2>
+    <p>نتخذ إجراءات معقولة لحماية المعلومات، لكن لا توجد طريقة نقل عبر الإنترنت آمنة بنسبة 100%.</p>
+
+    <h2>خصوصية الأطفال</h2>
+    <p>التطبيق غير موجّه للأطفال دون سن 13 عاماً، ولا نجمع منهم معلومات عن قصد.</p>
+
+    <h2>التغييرات على هذه السياسة</h2>
+    <p>قد نقوم بتحديث سياسة الخصوصية من وقت لآخر. أي تحديث سيتم نشره في هذه الصفحة مع تاريخ التعديل.</p>
+
+    <h2>التواصل</h2>
+    <p>لأي استفسارات حول سياسة الخصوصية يمكنك التواصل معنا عبر: <a href="mailto:turki@fahads.sa">turki@fahads.sa</a></p>
+  </div>
+
+  <!-- English -->
+  <div id="contentEN">
+    <h1>Privacy Policy</h1>
+    <p class="meta">Last Updated: 2026-02-11 · TAKAH | طقة App</p>
+    <hr>
+
+    <h2>Overview</h2>
+    <p><strong>TAKAH (طقة)</strong> is a Baloot card game score counter app. It does not require account registration and does not collect personal information such as your name, phone number, or email address.</p>
+
+    <h2>Information We Collect</h2>
+    <p>We do not collect or store personal information directly. If the app includes third-party advertising services (such as Google AdMob), those services may automatically collect non-personal data such as device type, operating system, advertising identifiers, and general usage data to display and measure ads.</p>
+
+    <h2>Ads (Google AdMob)</h2>
+    <p><strong>TAKAH</strong> may display banner ads using Google AdMob. Google may collect non-personal information to serve and measure ads in accordance with Google's own policies. You may opt out of personalized ads through your device settings where available.</p>
+
+    <h2>Data Sharing</h2>
+    <p>We do not sell personal data. Non-personal data may be shared with advertising providers only as strictly necessary to operate ads and improve performance.</p>
+
+    <h2>Data Security</h2>
+    <p>We take reasonable steps to protect information. However, no method of transmission over the internet is 100% secure.</p>
+
+    <h2>Children's Privacy</h2>
+    <p>TAKAH is not intended for children under the age of 13. We do not knowingly collect personal information from children.</p>
+
+    <h2>Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. Any updates will be posted on this page with a revised date.</p>
+
+    <h2>Contact Us</h2>
+    <p>If you have questions about this Privacy Policy, please contact us at: <a href="mailto:turki@fahads.sa">turki@fahads.sa</a></p>
+  </div>
+</div>
+
+<footer>
+  <p>TAKAH | طقة &mdash; <a href="index.html" style="color:var(--muted);">العودة للموقع</a></p>
+</footer>
+
+<script>
+  function setLang(lang) {
+    const ar = lang === 'ar';
+    document.getElementById('contentAR').classList.toggle('hidden', !ar);
+    document.getElementById('contentEN').classList.toggle('hidden', ar);
+    document.getElementById('btnAR').classList.toggle('active', ar);
+    document.getElementById('btnEN').classList.toggle('active', !ar);
+    document.documentElement.lang = lang;
+    document.documentElement.dir = ar ? 'rtl' : 'ltr';
+    localStorage.setItem('pp_lang', lang);
+  }
+
+  const saved = localStorage.getItem('pp_lang');
+  const nav = (navigator.language || 'en').toLowerCase().startsWith('ar') ? 'ar' : 'en';
+  setLang((saved === 'ar' || saved === 'en') ? saved : nav);
+
+  const darkBtn = document.getElementById('darkBtn');
+  const isDark = localStorage.getItem('color-scheme') === 'dark' ||
+    (!localStorage.getItem('color-scheme') && window.matchMedia('(prefers-color-scheme: dark)').matches);
+  if (isDark) document.documentElement.classList.add('dark');
+  darkBtn.textContent = isDark ? '☀️' : '🌙';
+
+  darkBtn.addEventListener('click', () => {
+    const on = document.documentElement.classList.toggle('dark');
+    darkBtn.textContent = on ? '☀️' : '🌙';
+    localStorage.setItem('color-scheme', on ? 'dark' : 'light');
+  });
+</script>
+</body>
+</html>
